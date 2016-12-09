@@ -21,7 +21,7 @@ $(TARGET): $(OBJECTS)
 	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
 
 run:
-	./${PROGRAM_NAME} ${ARGS}
+	./${PROGRAM_NAME} 12
 
 clean:
 	-rm -f *.o
