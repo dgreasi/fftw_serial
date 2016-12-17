@@ -6,5 +6,7 @@ Makefile commands
 
 	make: compiles code
 	clear: deletes files
-	make run: executes prog
+	make run: executes prog without args
+	make ARGS="NUMBER" run: executes prog with arg NUMBER
+
 

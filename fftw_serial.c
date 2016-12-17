@@ -136,7 +136,7 @@ int main (int argc, char *argv[]) {
 	clock_t end=clock();
 	
 	double time_spent=(double)(end-begin) / CLOCKS_PER_SEC;
-	printf("Time spent in serial_FFT for 2^%d elements: %lf\n",size,time_spent);
+	printf("Time spent in serial_FFT for %d elements: %lf\n",size,time_spent);
 	
 	//Printing the values of Y for debugging
 	//for(i=0;i<size;i++) {	
